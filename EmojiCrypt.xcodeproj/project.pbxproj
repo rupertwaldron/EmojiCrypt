@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7078C8B21D553C3003DDAF1 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C8A21D553C3003DDAF1 /* Encryption.swift */; };
+		E7078C8E21D55445003DDAF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C8D21D55445003DDAF1 /* Extensions.swift */; };
+		E7078C9021D554F0003DDAF1 /* Encryptor_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C8F21D554F0003DDAF1 /* Encryptor_Protocol.swift */; };
+		E7078C9221D55513003DDAF1 /* AbstractEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C9121D55513003DDAF1 /* AbstractEncryptor.swift */; };
+		E7078C9421D55560003DDAF1 /* InputText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C9321D55560003DDAF1 /* InputText.swift */; };
+		E7078C9621D555D7003DDAF1 /* Ceasar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C9521D555D7003DDAF1 /* Ceasar.swift */; };
+		E7078C9821D5FF68003DDAF1 /* Vigenere.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C9721D5FF68003DDAF1 /* Vigenere.swift */; };
 		E760609721D18C5E00707D0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E760609621D18C5E00707D0B /* AppDelegate.swift */; };
 		E760609921D18C5E00707D0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E760609821D18C5E00707D0B /* ViewController.swift */; };
 		E760609C21D18C5E00707D0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E760609A21D18C5E00707D0B /* Main.storyboard */; };
 		E760609E21D18C6000707D0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E760609D21D18C6000707D0B /* Assets.xcassets */; };
 		E76060A121D18C6000707D0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E760609F21D18C6000707D0B /* LaunchScreen.storyboard */; };
+		E76060AC21D18DDC00707D0B /* background_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E76060AB21D18DDC00707D0B /* background_1.jpg */; };
+		E76060B021D3D0EB00707D0B /* wavelength_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E76060AD21D3D0EA00707D0B /* wavelength_icon@2x.png */; };
+		E76060B121D3D0EB00707D0B /* wavelength_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E76060AE21D3D0EB00707D0B /* wavelength_icon.png */; };
+		E76060B221D3D0EB00707D0B /* wavelength_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E76060AF21D3D0EB00707D0B /* wavelength_icon@3x.png */; };
+		E76060B621D3D23000707D0B /* trending_fire@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E76060B321D3D22F00707D0B /* trending_fire@2x.png */; };
+		E76060B721D3D23000707D0B /* trending_fire@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E76060B421D3D23000707D0B /* trending_fire@3x.png */; };
+		E76060B821D3D23000707D0B /* trending_fire.png in Resources */ = {isa = PBXBuildFile; fileRef = E76060B521D3D23000707D0B /* trending_fire.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E7078C8A21D553C3003DDAF1 /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
+		E7078C8D21D55445003DDAF1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E7078C8F21D554F0003DDAF1 /* Encryptor_Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryptor_Protocol.swift; sourceTree = "<group>"; };
+		E7078C9121D55513003DDAF1 /* AbstractEncryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractEncryptor.swift; sourceTree = "<group>"; };
+		E7078C9321D55560003DDAF1 /* InputText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputText.swift; sourceTree = "<group>"; };
+		E7078C9521D555D7003DDAF1 /* Ceasar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ceasar.swift; sourceTree = "<group>"; };
+		E7078C9721D5FF68003DDAF1 /* Vigenere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vigenere.swift; sourceTree = "<group>"; };
 		E760609321D18C5E00707D0B /* EmojiCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiCrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E760609621D18C5E00707D0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E760609821D18C5E00707D0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +43,13 @@
 		E760609D21D18C6000707D0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E76060A021D18C6000707D0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E76060A221D18C6000707D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76060AB21D18DDC00707D0B /* background_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_1.jpg; sourceTree = "<group>"; };
+		E76060AD21D3D0EA00707D0B /* wavelength_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wavelength_icon@2x.png"; sourceTree = "<group>"; };
+		E76060AE21D3D0EB00707D0B /* wavelength_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wavelength_icon.png; sourceTree = "<group>"; };
+		E76060AF21D3D0EB00707D0B /* wavelength_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wavelength_icon@3x.png"; sourceTree = "<group>"; };
+		E76060B321D3D22F00707D0B /* trending_fire@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trending_fire@2x.png"; sourceTree = "<group>"; };
+		E76060B421D3D23000707D0B /* trending_fire@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trending_fire@3x.png"; sourceTree = "<group>"; };
+		E76060B521D3D23000707D0B /* trending_fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trending_fire.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E7078C8C21D55428003DDAF1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E7078C8D21D55445003DDAF1 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E760608A21D18C5E00707D0B = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +90,52 @@
 		E760609521D18C5E00707D0B /* EmojiCrypt */ = {
 			isa = PBXGroup;
 			children = (
+				E7078C8C21D55428003DDAF1 /* Extensions */,
+				E76060A821D18CA700707D0B /* Models */,
+				E76060AA21D18CE700707D0B /* Views */,
+				E76060A921D18CD200707D0B /* Controllers */,
 				E760609621D18C5E00707D0B /* AppDelegate.swift */,
-				E760609821D18C5E00707D0B /* ViewController.swift */,
-				E760609A21D18C5E00707D0B /* Main.storyboard */,
 				E760609D21D18C6000707D0B /* Assets.xcassets */,
+				E76060B521D3D23000707D0B /* trending_fire.png */,
+				E76060B321D3D22F00707D0B /* trending_fire@2x.png */,
+				E76060B421D3D23000707D0B /* trending_fire@3x.png */,
+				E76060AE21D3D0EB00707D0B /* wavelength_icon.png */,
+				E76060AD21D3D0EA00707D0B /* wavelength_icon@2x.png */,
+				E76060AF21D3D0EB00707D0B /* wavelength_icon@3x.png */,
+				E76060AB21D18DDC00707D0B /* background_1.jpg */,
 				E760609F21D18C6000707D0B /* LaunchScreen.storyboard */,
 				E76060A221D18C6000707D0B /* Info.plist */,
 			);
 			path = EmojiCrypt;
+			sourceTree = "<group>";
+		};
+		E76060A821D18CA700707D0B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7078C8A21D553C3003DDAF1 /* Encryption.swift */,
+				E7078C8F21D554F0003DDAF1 /* Encryptor_Protocol.swift */,
+				E7078C9121D55513003DDAF1 /* AbstractEncryptor.swift */,
+				E7078C9321D55560003DDAF1 /* InputText.swift */,
+				E7078C9521D555D7003DDAF1 /* Ceasar.swift */,
+				E7078C9721D5FF68003DDAF1 /* Vigenere.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E76060A921D18CD200707D0B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E760609821D18C5E00707D0B /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E76060AA21D18CE700707D0B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E760609A21D18C5E00707D0B /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +197,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E76060A121D18C6000707D0B /* LaunchScreen.storyboard in Resources */,
+				E76060B621D3D23000707D0B /* trending_fire@2x.png in Resources */,
+				E76060B221D3D0EB00707D0B /* wavelength_icon@3x.png in Resources */,
 				E760609E21D18C6000707D0B /* Assets.xcassets in Resources */,
 				E760609C21D18C5E00707D0B /* Main.storyboard in Resources */,
+				E76060B021D3D0EB00707D0B /* wavelength_icon@2x.png in Resources */,
+				E76060AC21D18DDC00707D0B /* background_1.jpg in Resources */,
+				E76060B121D3D0EB00707D0B /* wavelength_icon.png in Resources */,
+				E76060B821D3D23000707D0B /* trending_fire.png in Resources */,
+				E76060B721D3D23000707D0B /* trending_fire@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +216,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7078C9421D55560003DDAF1 /* InputText.swift in Sources */,
+				E7078C8B21D553C3003DDAF1 /* Encryption.swift in Sources */,
 				E760609921D18C5E00707D0B /* ViewController.swift in Sources */,
 				E760609721D18C5E00707D0B /* AppDelegate.swift in Sources */,
+				E7078C8E21D55445003DDAF1 /* Extensions.swift in Sources */,
+				E7078C9221D55513003DDAF1 /* AbstractEncryptor.swift in Sources */,
+				E7078C9821D5FF68003DDAF1 /* Vigenere.swift in Sources */,
+				E7078C9621D555D7003DDAF1 /* Ceasar.swift in Sources */,
+				E7078C9021D554F0003DDAF1 /* Encryptor_Protocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
