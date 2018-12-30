@@ -18,82 +18,126 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="background_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Uyd-ab-Df2">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Uyd-ab-Df2">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="96r-dP-s6h">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hcK-OF-QdM" userLabel="Main Vert Stack">
+                                <rect key="frame" x="10" y="44" width="394" height="778"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emoji Cypher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaa-ja-644">
-                                        <rect key="frame" x="157" y="0.0" width="100" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nI0-vV-a6N">
-                                        <rect key="frame" x="12.5" y="60.5" width="389" height="233.5"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4cd-Zu-LRL">
+                                        <rect key="frame" x="0.0" y="0.0" width="394" height="80"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emoji Cypher" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iaa-ja-644">
+                                                <rect key="frame" x="119" y="24.5" width="156.5" height="30.5"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="nI0-vV-a6N" secondAttribute="height" multiplier="5:3" id="7UH-2C-1G7"/>
+                                            <constraint firstItem="iaa-ja-644" firstAttribute="centerY" secondItem="4cd-Zu-LRL" secondAttribute="centerY" id="SYo-JF-31v"/>
+                                            <constraint firstItem="iaa-ja-644" firstAttribute="centerX" secondItem="4cd-Zu-LRL" secondAttribute="centerX" id="SzW-Ea-Vpc"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6Q-No-vYY">
-                                        <rect key="frame" x="178" y="334" width="58" height="80"/>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dCh-m1-WOW">
+                                        <rect key="frame" x="0.0" y="100" width="394" height="39.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pass Phrase" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xD-TI-IDS">
+                                                <rect key="frame" x="0.0" y="0.0" width="192" height="39.5"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="s🙂cr🧐t" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EqD-EG-arf">
+                                                <rect key="frame" x="202" y="0.0" width="192" height="39.5"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O0g-MJ-OMn" userLabel="Plain View">
+                                        <rect key="frame" x="0.0" y="159.5" width="394" height="199.5"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter plain text to encrypt" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nI0-vV-a6N">
+                                                <rect key="frame" x="0.0" y="0.0" width="394" height="199.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="vlX-FD-cWp"/>
+                                            <constraint firstAttribute="bottom" secondItem="nI0-vV-a6N" secondAttribute="bottom" id="A8P-Dk-sUe"/>
+                                            <constraint firstItem="nI0-vV-a6N" firstAttribute="leading" secondItem="O0g-MJ-OMn" secondAttribute="leading" id="VeY-4G-vsn"/>
+                                            <constraint firstItem="nI0-vV-a6N" firstAttribute="top" secondItem="O0g-MJ-OMn" secondAttribute="top" id="tNN-W2-PLX"/>
+                                            <constraint firstAttribute="trailing" secondItem="nI0-vV-a6N" secondAttribute="trailing" id="zPh-lJ-HpB"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <state key="normal" title="Encrypt">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="encryptDecryptBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UJr-0u-JBS"/>
-                                        </connections>
-                                    </button>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="96p-ZI-wp4">
-                                        <rect key="frame" x="113" y="454" width="188" height="113"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3h-bF-u9p" userLabel="Cypher View">
+                                        <rect key="frame" x="0.0" y="379" width="394" height="199.5"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter emojis 😚 to decrypt" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="96p-ZI-wp4">
+                                                <rect key="frame" x="0.0" y="0.0" width="394" height="199.5"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" secondItem="96p-ZI-wp4" secondAttribute="height" multiplier="5:3" id="3xu-IM-JZV"/>
+                                            <constraint firstAttribute="bottom" secondItem="96p-ZI-wp4" secondAttribute="bottom" id="JPg-KA-7rH"/>
+                                            <constraint firstItem="96p-ZI-wp4" firstAttribute="leading" secondItem="g3h-bF-u9p" secondAttribute="leading" id="ddM-1d-xNy"/>
+                                            <constraint firstAttribute="trailing" secondItem="96p-ZI-wp4" secondAttribute="trailing" id="hmL-x6-JaJ"/>
+                                            <constraint firstItem="96p-ZI-wp4" firstAttribute="top" secondItem="g3h-bF-u9p" secondAttribute="top" id="oYE-Pb-vhC"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pass Phrase" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xD-TI-IDS">
-                                        <rect key="frame" x="160.5" y="607" width="93.5" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EqD-EG-arf">
-                                        <rect key="frame" x="157" y="667.5" width="100" height="150.5"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yal-80-fde">
+                                        <rect key="frame" x="0.0" y="598.5" width="394" height="79.5"/>
+                                        <subviews>
+                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6Q-No-vYY">
+                                                <rect key="frame" x="165.5" y="23" width="63" height="34"/>
+                                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Encrypt">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="encryptDecryptBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UJr-0u-JBS"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="ODc-Lr-XaM"/>
+                                            <constraint firstItem="n6Q-No-vYY" firstAttribute="centerY" secondItem="yal-80-fde" secondAttribute="centerY" id="QCB-Ye-aG1"/>
+                                            <constraint firstItem="n6Q-No-vYY" firstAttribute="centerX" secondItem="yal-80-fde" secondAttribute="centerX" id="a6p-iw-aaD"/>
                                         </constraints>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pdy-LI-g0C">
+                                        <rect key="frame" x="0.0" y="698" width="394" height="80"/>
+                                    </view>
                                 </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="EqD-EG-arf" firstAttribute="leading" secondItem="iaa-ja-644" secondAttribute="leading" id="OXn-DS-WDV"/>
-                                    <constraint firstItem="n6Q-No-vYY" firstAttribute="top" secondItem="96r-dP-s6h" secondAttribute="top" constant="334" id="Po9-JP-oAr"/>
-                                    <constraint firstItem="n6Q-No-vYY" firstAttribute="leading" secondItem="96r-dP-s6h" secondAttribute="leading" constant="178" id="UNX-8z-K5K"/>
+                                    <constraint firstAttribute="trailing" secondItem="pdy-LI-g0C" secondAttribute="trailing" id="2Bz-wQ-Kvg"/>
+                                    <constraint firstItem="dCh-m1-WOW" firstAttribute="height" secondItem="4cd-Zu-LRL" secondAttribute="height" multiplier="1:2" id="3F1-EV-NaZ"/>
+                                    <constraint firstItem="pdy-LI-g0C" firstAttribute="leading" secondItem="hcK-OF-QdM" secondAttribute="leading" id="AYC-tn-GD2"/>
+                                    <constraint firstItem="yal-80-fde" firstAttribute="height" secondItem="4cd-Zu-LRL" secondAttribute="height" id="F1C-Vg-mBO"/>
+                                    <constraint firstItem="pdy-LI-g0C" firstAttribute="height" secondItem="4cd-Zu-LRL" secondAttribute="height" id="IpN-pW-RGC"/>
+                                    <constraint firstAttribute="bottom" secondItem="pdy-LI-g0C" secondAttribute="bottom" id="My2-09-9Uz"/>
+                                    <constraint firstItem="O0g-MJ-OMn" firstAttribute="height" secondItem="4cd-Zu-LRL" secondAttribute="height" multiplier="2.5:1" id="aZJ-hC-lkj"/>
+                                    <constraint firstItem="g3h-bF-u9p" firstAttribute="height" secondItem="O0g-MJ-OMn" secondAttribute="height" id="t4V-xN-dIi"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="96r-dP-s6h" secondAttribute="bottom" id="0vL-6M-KDD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Uyd-ab-Df2" secondAttribute="bottom" constant="-34" id="3c9-Uf-S9r"/>
-                            <constraint firstItem="96r-dP-s6h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Est-jb-wsm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Uyd-ab-Df2" secondAttribute="trailing" id="dXK-xm-LO7"/>
-                            <constraint firstItem="Uyd-ab-Df2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="luw-AT-V9J"/>
-                            <constraint firstItem="96r-dP-s6h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="oA3-LA-Yiz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="96r-dP-s6h" secondAttribute="trailing" id="p0H-Va-93X"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hcK-OF-QdM" secondAttribute="trailing" constant="10" id="4Pk-FU-j9J"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="hcK-OF-QdM" secondAttribute="bottom" constant="40" id="Fap-fA-CG7"/>
+                            <constraint firstItem="hcK-OF-QdM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="JOl-9v-twy"/>
+                            <constraint firstItem="hcK-OF-QdM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Noy-9L-ypb"/>
+                            <constraint firstItem="Uyd-ab-Df2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OzH-l1-x4e"/>
+                            <constraint firstItem="Uyd-ab-Df2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="W16-EM-6O4"/>
+                            <constraint firstItem="Uyd-ab-Df2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="d9A-jJ-DNn"/>
+                            <constraint firstAttribute="bottom" secondItem="Uyd-ab-Df2" secondAttribute="bottom" id="eE9-q3-zQQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
