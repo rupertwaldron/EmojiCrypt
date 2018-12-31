@@ -28,7 +28,7 @@ class AbstractEncryptor: Encryptor {
         var emojis = [Character]()
         let emoji1 = "👽🤖🏃🏻‍♀️🏃‍♂️👠👑👛👙🧶😇💀🌈🌪⚡️☄️☃️🔥🌴🎄🐝🦄🦀🍄🌙🧞‍♂️🧟‍♂️🧜🏻‍♀️🎭"
         let emoji2 = "🍟🍺🌰🍰🍔🍒🌶🍓🥃🍾🍼🍦🍊🍆🥥🥤🍩🎂🦴🧀🥐🍕🥧🍭🍯🍤🍬☕️🥪🍳🥑🍇"
-        let emoji3 = "😎🎃😮🧐🥶🧟‍♂️💩🤡☠️🤢😷👿😘😝😍😤🤬🤯😱😶😴😙👻🤠🕺💃🏻🤓🙃🥵🤔😜🤪"
+        let emoji3 = "😎🎃😮🧐🥶🤕💩🤡☠️🤢😷👿😘😝😍😤🤬🤯😱😶😴😙👻🤠🕺💃🏻🤓🙃🥵🤔😜🤪"
         
         let emojiList = emoji1 + emoji2 + emoji3
         for em in emojiList {

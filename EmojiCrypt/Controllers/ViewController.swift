@@ -16,9 +16,6 @@ class ViewController: UIViewController, UITextViewDelegate, UITextFieldDelegate 
     
     @IBOutlet weak var passPhrase: UITextField!
     
-    let encryptImage: UIImage = UIImage(named: "wavelength_icon")!
-    let decryptImage: UIImage = UIImage(named: "trending_fire")!
-
     var encryptText: Bool = true
     var cypherKey: Int = 0
     
