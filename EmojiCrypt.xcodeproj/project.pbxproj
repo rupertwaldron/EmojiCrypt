@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E703CA8921DA6B750023320C /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E703CA8821DA6B750023320C /* iTunesArtwork@3x.png */; };
+		E703CA8B21DA6C590023320C /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E703CA8A21DA6C590023320C /* Icon-App-83.5x83.5@2x.png */; };
 		E7078C8B21D553C3003DDAF1 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C8A21D553C3003DDAF1 /* Encryption.swift */; };
 		E7078C8E21D55445003DDAF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C8D21D55445003DDAF1 /* Extensions.swift */; };
 		E7078C9021D554F0003DDAF1 /* Encryptor_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C8F21D554F0003DDAF1 /* Encryptor_Protocol.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E703CA8821DA6B750023320C /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		E703CA8A21DA6C590023320C /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
 		E7078C8A21D553C3003DDAF1 /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
 		E7078C8D21D55445003DDAF1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E7078C8F21D554F0003DDAF1 /* Encryptor_Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryptor_Protocol.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				E76060A921D18CD200707D0B /* Controllers */,
 				E760609621D18C5E00707D0B /* AppDelegate.swift */,
 				E760609D21D18C6000707D0B /* Assets.xcassets */,
+				E703CA8A21DA6C590023320C /* Icon-App-83.5x83.5@2x.png */,
+				E703CA8821DA6B750023320C /* iTunesArtwork@3x.png */,
 				E76060AB21D18DDC00707D0B /* background_1.jpg */,
 				E760609F21D18C6000707D0B /* LaunchScreen.storyboard */,
 				E76060A221D18C6000707D0B /* Info.plist */,
@@ -179,8 +185,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E76060A121D18C6000707D0B /* LaunchScreen.storyboard in Resources */,
+				E703CA8921DA6B750023320C /* iTunesArtwork@3x.png in Resources */,
 				E760609E21D18C6000707D0B /* Assets.xcassets in Resources */,
 				E760609C21D18C5E00707D0B /* Main.storyboard in Resources */,
+				E703CA8B21DA6C590023320C /* Icon-App-83.5x83.5@2x.png in Resources */,
 				E76060AC21D18DDC00707D0B /* background_1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
