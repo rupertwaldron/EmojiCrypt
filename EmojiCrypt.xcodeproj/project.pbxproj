@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E703CA8921DA6B750023320C /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E703CA8821DA6B750023320C /* iTunesArtwork@3x.png */; };
 		E703CA8B21DA6C590023320C /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E703CA8A21DA6C590023320C /* Icon-App-83.5x83.5@2x.png */; };
-		E7078C8B21D553C3003DDAF1 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C8A21D553C3003DDAF1 /* Encryption.swift */; };
 		E7078C8E21D55445003DDAF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C8D21D55445003DDAF1 /* Extensions.swift */; };
 		E7078C9021D554F0003DDAF1 /* Encryptor_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C8F21D554F0003DDAF1 /* Encryptor_Protocol.swift */; };
 		E7078C9221D55513003DDAF1 /* AbstractEncryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7078C9121D55513003DDAF1 /* AbstractEncryptor.swift */; };
@@ -27,7 +26,6 @@
 /* Begin PBXFileReference section */
 		E703CA8821DA6B750023320C /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
 		E703CA8A21DA6C590023320C /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
-		E7078C8A21D553C3003DDAF1 /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
 		E7078C8D21D55445003DDAF1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		E7078C8F21D554F0003DDAF1 /* Encryptor_Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryptor_Protocol.swift; sourceTree = "<group>"; };
 		E7078C9121D55513003DDAF1 /* AbstractEncryptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractEncryptor.swift; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 		E76060A821D18CA700707D0B /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E7078C8A21D553C3003DDAF1 /* Encryption.swift */,
 				E7078C8F21D554F0003DDAF1 /* Encryptor_Protocol.swift */,
 				E7078C9121D55513003DDAF1 /* AbstractEncryptor.swift */,
 				E7078C9321D55560003DDAF1 /* InputText.swift */,
@@ -201,7 +198,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7078C9421D55560003DDAF1 /* InputText.swift in Sources */,
-				E7078C8B21D553C3003DDAF1 /* Encryption.swift in Sources */,
 				E760609921D18C5E00707D0B /* ViewController.swift in Sources */,
 				E760609721D18C5E00707D0B /* AppDelegate.swift in Sources */,
 				E7078C8E21D55445003DDAF1 /* Extensions.swift in Sources */,
